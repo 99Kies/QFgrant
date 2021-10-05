@@ -6,7 +6,7 @@ homepage = 'https://substrate.dev'
 license = 'Unlicense'
 name = 'pallet-quadratic-funding-rpc'
 repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
-version = '2.0.1'
+version = '3.0.0-monthly-2021-09+1'
 
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']
@@ -31,4 +31,4 @@ sp-rpc = { version = "2.0.1" }
 sp-api = { version = "2.0.1" }
 sp-blockchain = { version = "2.0.1" }
 # local packages
-pallet-quadratic-funding-runtime-api = { version = "2.0.0", path = "../runtime-api", default-features = false }
+pallet-quadratic-funding-runtime-api = { version = "3.0.0-monthly-2021-09+1", path = "../runtime-api", default-features = false }
