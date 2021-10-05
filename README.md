@@ -199,6 +199,6 @@ by appending your own. A few useful ones are as follow.
 # Purge the local dev chain
 ./scripts/docker_run.sh ./target/release/node-template purge-chain --dev
 
-# Check whether the code is compilable.
+# Check whether the code is compilable
 ./scripts/docker_run.sh cargo check
 ```
